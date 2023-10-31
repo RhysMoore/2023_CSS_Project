@@ -1,0 +1,30 @@
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+.header{
+    width: 1100px;
+    height: 100px;
+    background-color: purple;
+}
+
+.nav{
+    width: 1200px;
+    height: 50px;
+    background-color: green;
+}
+
+.text{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    float: left;
+}
