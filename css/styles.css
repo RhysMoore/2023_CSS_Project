@@ -1,8 +1,17 @@
+/* table of Contents:
+    1. Container
+    2. Logo/Header
+    3. navbar
+    5. Genera; Styles
+ */
+
+/* 1. Container */
 .container{
     width: 1200px;
     margin: auto;
 }
 
+/* 2. Logo/Header */
 .logo{
     width: 100px;
     height: 100px;
@@ -17,50 +26,46 @@
     float: left;
 }
 
+/* 3. navbar */
 .nav{
     width: 1200px;
     height: 50px;
-    background-color: green;
+    background-color: blue;
+    float: left;
+}
+
+/* 4. General Styles */
+.leftGroup{
+    width: 300px;
     float: left;
 }
 
 .text{
-    width: 200px;
+    width: 300px;
     height: 200px;
     background-color: red;
     float: left;
 }
 
-.pictures{
-    width: 800px;
-    height: 400px;
-    background-color: aqua;
-    float: left;
-}
-.leftGroup{
-    width: 200px;
+.ad{
+    width: 300px;
+    height: 200px;
+    background-color: gold;
     float: left;
 }
 
-.ad1{
-    width: 200px;
-    height: 200px;
-    background-color: gold;
+.pictures{
+    width: 603px;
+    height: 400px;
+    background-color: teal;
     float: left;
 }
 
 .groups{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    width: 297px;
+    height: 400px;
     float: left;
-}
-
-.ad2{
-    width: 200px;
-    height: 200px;
-    background-color: gold;
-    float: left;
+    background-color: aqua;
 }
 
 .footer{
