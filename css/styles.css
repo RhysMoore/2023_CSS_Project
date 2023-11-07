@@ -15,49 +15,33 @@
 .logo{
     width: 100px;
     height: 100px;
-    background-color: yellow;
     float: left;
 }
 
 .header{
     width: 1100px;
     height: 100px;
-    background-color: purple;
     float: left;
 }
 
 /* 3. navbar */
 .nav{
     width: 1200px;
-    height: 50px;
-    background-color: blue;
+    height: 46px;
     float: left;
 }
 
 /* 4. General Styles */
-.leftGroup{
-    width: 300px;
-    float: left;
-}
 
 .text{
     width: 300px;
-    height: 200px;
-    background-color: red;
-    float: left;
-}
-
-.ad{
-    width: 300px;
-    height: 200px;
-    background-color: gold;
+    height: 400px;
     float: left;
 }
 
 .pictures{
     width: 603px;
     height: 400px;
-    background-color: teal;
     float: left;
 }
 
@@ -65,12 +49,11 @@
     width: 297px;
     height: 400px;
     float: left;
-    background-color: aqua;
 }
 
 .footer{
     width: 1200px;
     height: 100px;
-    background-color: orange;
     float: left;
+    padding-top: 25px;
 }

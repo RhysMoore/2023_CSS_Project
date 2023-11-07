@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display: block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        li a:hover{
+            background-color: limegreen;
+        }
+
+        .active{
+            background-color: darkgray;
+        }
+
+        #groups{
+            border-collapse: collapse;
+            width: 100%
+        }
+
+        #groups td, #groups th{
+            border: solid 1px black;
+            padding-right: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="logo"><img src="img/reenactingLogo.webp" height="100" /></div>
+        <div class="header"><img src="img/webHeader.png" /></div>
+        <div class="nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="basics.html">The Basics of Reenacting</a></li>
+                <li><a href="types.html">Types of Reenacting</a></li>
+                <li><a href="how.html">How to be Involved</a></li>
+                <li><a href="contact.html">Leave your thoughts about the site</a></li>
+            </ul>
+        </div>
+        <div class="text">
+            <p>
+                <font size="6px">Learn about the hobby of reenacting. What does it mean? What do you do? How can you do it?
+                    Find out right here!</font>
+            </p>
+        </div>
+        <div class="ad"></div>
+        <div class="pictures">
+            <img src="img/historical-reenactment-group-photo-2.jpg" alt="" height="400px"/>
+        </div>
+        <div class="groups">
+            <table id="groups">
+                <thead>
+                <tr>
+                    <th>Reenactment Group Websites</th>
+                </tr>
+                </thead>
+                <tr>
+                    <td><a href="http://8thnj.org/">The 8th New Jersey Volunteers</a></td>
+                    <td>Civil War Reenactment Group</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.2nj.org/">The 2nd New Jersey Regiment Helm's Company</a></td>
+                    <td>Revolutionary War Reenactment Group</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.45thdivision.org/">The 45th Infantry Division</a></td>
+                    <td>World War II Reenactment Group</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <footer>
+                Copyright &copy; 2023 | Web Design & Server Development ACP | All Rights Reserved
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
