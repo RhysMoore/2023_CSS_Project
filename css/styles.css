@@ -55,5 +55,17 @@
     width: 1200px;
     height: 100px;
     float: left;
-    padding-top: 25px;
+    padding-top: 15px;
+}
+
+.feedback{
+    width: 517px;
+    height: 400px;
+    float: left;
+}
+
+.feedbackImage{
+    width: 683px;
+    height: 400px;
+    float: left;
 }

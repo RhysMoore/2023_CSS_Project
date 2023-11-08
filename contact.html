@@ -2,25 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Us</title>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .container{
+            width: 1200px;
+            margin: auto;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display: block;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
+
+        li a:hover{
+            background-color: limegreen;
+        }
+
+        .active{
+            background-color: darkgray;
+        }
+
+        #groups td, #groups th{
+            border: solid 1px black;
+            padding-right: 20px;
+        }
+    </style>
+
 </head>
 <body>
+<div class="container">
+    <div class="logo"><img src="img/reenactingLogo.webp" height="100" /></div>
+    <div class="header"><img src="img/webHeader.png" /></div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="basics.html">The Basics of Reenacting</a></li>
+            <li><a href="types.html">Types of Reenacting</a></li>
+            <li><a href="how.html">How to be Involved</a></li>
+            <li><a href="contact.html" class="active">Leave your thoughts about the site</a></li>
+        </ul>
+    </div>
+    <div class="feedback">
+        <form method="post" action="" name="contact">
+            <label for ="lName">Last Name:</label>
+            <input type="text" name="lName" id="lName" value=""/>
 
-<form method="post" action="" name="contact">
-    <label for ="lName">Last Name:</label>
-    <input type="text" name="lName" id="lName" value=""/>
+            <label for ="fName">First Name:</label>
+            <input type="text" name="fName" id="fName" value=""/><br /><br />
 
-    <label for ="fName">First Name:</label>
-    <input type="text" name="fName" id="fName" value=""/><br /><br />
+            <label for ="email">email Address:</label>
+            <input type="text" name="email" id="email" value=""/><br /><br />
 
-    <label for ="email">email Address:</label>
-    <input type="text" name="email" id="email" value=""/><br /><br />
+            <textarea name="why" rows="10" cols="50">Let us know your thoughts</textarea>
+            <br /><br />
 
-    <textarea name="why" rows="10" cols="50">Let us know your thoughts</textarea>
-    <br /><br />
-
-    <input type="submit" value="Submit" />
-</form>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+    <div class="feedbackImage"><img src="img/ReenactImgMulti.jpg" height="400"/></div>
+    <div class="footer">
+        <footer>
+            Copyright &copy; 2023 | Web Design & Server Development ACP | All Rights Reserved
+        </footer>
+    </div>
+</div>
 
 </body>
 </html>
